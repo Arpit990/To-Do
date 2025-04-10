@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div class="container">
-      <div class="mx-auto p-3 w-50">
+      <div class="mx-auto p-3 w-100">
         <TodoApp />
       </div>
     </div>
