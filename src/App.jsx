@@ -7,9 +7,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <TodoApp />
-    </>
+    <div class="container">
+      <div class="mx-auto p-3 w-50">
+        <TodoApp />
+      </div>
+    </div>
   )
 }
 
